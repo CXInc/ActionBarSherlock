@@ -4,14 +4,14 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.+'
+        classpath 'com.android.tools.build:gradle:0.14.+'
     }
 }
 
 apply plugin: 'android-library'
 
 dependencies {
-  compile files('libs/android-support-v4.jar')
+  compile "com.android.support:support-v4:18.0.+"
 }
 
 android {
